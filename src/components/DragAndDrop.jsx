@@ -21,11 +21,15 @@ const DragAndDrop = (props) => {
       if (status === "done") {
         const {
           file: {
-            response: { actorName },
+            response: { actorName, error },
           },
         } = info;
-        message.success(`${info.file.name} file uploaded successfully.`);
-        updateActor(actorName);
+        if (!error) {
+          message.success(`${info.file.name} file uploaded successfully.`);
+          updateActor(actorName);
+        } else {
+          message.error(error);
+        }
       } else if (status === "error") {
         message.error(`${info.file.name} file upload failed.`);
       }
