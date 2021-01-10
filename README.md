@@ -13,3 +13,10 @@
 ## Observations
 
 1. The user cant access the details page without uploading an image first.
+
+## Evidence
+
+![alt text](https://github.com/MauSVil/MovieSearch/blob/main/public/evidence/Capture.PNG)
+![alt text](https://github.com/MauSVil/MovieSearch/blob/main/public/evidence/Capture1.PNG)
+![alt text](https://github.com/MauSVil/MovieSearch/blob/main/public/evidence/Capture2.PNG)
+
