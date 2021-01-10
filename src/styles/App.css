@@ -1,0 +1,13 @@
+@import "~antd/dist/antd.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px 20%;
+  box-sizing: border-box;
+}
